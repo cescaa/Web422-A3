@@ -1,3 +1,14 @@
+/*********************************************************************************
+* WEB422 – Assignment 3
+*
+* I declare that this assignment is my own work in accordance with Seneca's
+* Academic Integrity Policy:
+*
+* https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+*
+* Name: Cesca Dela Cruz______ Student ID: 123123150 Date: Oct 11 2024
+*
+********************************************************************************/
 import { useState, useEffect } from "react";
 import useSWR from "swr";
 import { Accordion, Pagination } from "react-bootstrap";
