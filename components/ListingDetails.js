@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+
 export default function ListingDetails({ listing }) {
   const errImg = "https://placehold.co/600x400?text=Photo+Not+Available";
   return (
@@ -26,7 +27,7 @@ export default function ListingDetails({ listing }) {
               : "No overview available."}
           </p>
           <br />
-          <strong>Price:</strong> ${listing.price.toFixed(2)} 
+          <strong>Price:</strong> ${listing.price.toFixed(2)}
           <br />
           <strong>Room:</strong> {listing.room_type}
           <br />
