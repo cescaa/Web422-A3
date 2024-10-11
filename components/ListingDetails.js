@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-// Note: Needed to remove "toFixed(2)" for listing.price on line 30 because my Assignment 1 is not deploying properly on Vercel. Because of this, deployment of Assignment 3 will not deploy unless "toFixed(2)" is removed.
 export default function ListingDetails({ listing }) {
   const errImg = "https://placehold.co/600x400?text=Photo+Not+Available";
   return (
@@ -27,7 +26,7 @@ export default function ListingDetails({ listing }) {
               : "No overview available."}
           </p>
           <br />
-          <strong>Price:</strong> ${listing.price} 
+          <strong>Price:</strong> ${listing.price.toFixed(2)} 
           <br />
           <strong>Room:</strong> {listing.room_type}
           <br />
